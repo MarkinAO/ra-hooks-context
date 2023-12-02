@@ -1,0 +1,81 @@
+.login-page_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.login-page_title {
+    font-size: 28px;
+}
+
+.login-page_form {
+    display: flex;
+    gap: 25px;
+}
+
+.login-page_form > input {
+    padding: 0 10px;
+}
+
+.login-page_button {
+    color: #00bd00;
+    border: 1px solid #00bd00;
+}
+
+.login-page_user {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-page_avatar {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.login-page_button__logout {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.content {
+    margin-top: 50px;
+    padding: 50px 20px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    max-width: 920px;
+}
+
+.news-item {
+    max-width: 400px;    
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.news-item_title {
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.news-item_content {
+    padding: 30px;
+}
